@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'customers.apps.CustomersConfig',
+    'banks.apps.BanksConfig',
     'tellers.apps.TellerConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -123,3 +125,4 @@ STATIC_URL = '/static/'
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR,  'templates'),
 )
+ADMIN_SITE_HEADER = "Bank Information System"
