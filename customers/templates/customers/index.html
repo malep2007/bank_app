@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {# Load the tag library #}
+    {% load bootstrap3 %}
+    {# Load CSS and JavaScript #}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    
+    <title>Customers</title>
+    <style>
+        .jumbotron{
+            background-color: #2e2d88;
+            color: white
+        }
+        /* Adds a border for tabs */
+        .tab-content{
+            border-left: 1px solid #dddddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+        .nav-tabs{
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4>Column 1</h4>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                natoque penatibus et magnis dis parturient montes, nascetur 
+                ridiculus mus. Donec quam felis, ultricies nec, pellentesque 
+                eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 
+                pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+                Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                Cras dapibus.
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4>Column 2</h4>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                natoque penatibus et magnis dis parturient montes, nascetur 
+                ridiculus mus. Donec quam felis, ultricies nec, pellentesque 
+                eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 
+                pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+                Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                Cras dapibus.
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4>Column 3</h4>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                natoque penatibus et magnis dis parturient montes, nascetur 
+                ridiculus mus. Donec quam felis, ultricies nec, pellentesque 
+                eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 
+                pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+                Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                Cras dapibus.
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4>Column 4</h4>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                natoque penatibus et magnis dis parturient montes, nascetur 
+                ridiculus mus. Donec quam felis, ultricies nec, pellentesque 
+                eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 
+                pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+                Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                Cras dapibus.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+
+
+
+
+{# Read the documentation for more information #}

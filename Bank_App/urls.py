@@ -20,6 +20,7 @@ from django.conf import settings
 admin.site.site_header = settings.ADMIN_SITE_HEADER
 
 urlpatterns = [
+    url(r'^customers/', include('customers.urls')),
     url(r'^tellers/', include('tellers.urls')),
     url(r'^admin/', admin.site.urls),
 ]
